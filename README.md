@@ -12,6 +12,8 @@
 
 *This repo is currently under active development.*
 
+**[Important] This is an experimental branch for discrete-time LQR and iLQR problems.**
+
 ## Examples
 
 | *Example* | *Code* | *Example* | *Code* |
@@ -25,7 +27,11 @@ Please also checkout [Linear Quadratic Flow Matching](https://murpheylab.github.
 
 Follow the [instructions](https://github.com/jax-ml/jax?tab=readme-ov-file#installation) to install JAX before installing this package.
 
-To install: `pip install lqrax`
+<!-- To install: `pip install lqrax` -->
+
+Since this is an experimental branch, you can install the package locally by running `pip install -e .` at the root directory of the repository (the same directory with setup.py).
+
+You can find updated examples for both continuous-time and discrete-time problems under the [examples](examples) directory.
 
 ## Usage
 
